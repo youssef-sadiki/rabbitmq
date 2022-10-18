@@ -3,7 +3,7 @@ package com.example.rabbitlistnerproject;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageListener;
 
-// To Listen to messages this class have to implement MessageListener
+// To Listen to rabbitms msgs we need to implement MessageListener
 public class RabbitMQMessageListener implements MessageListener
 {
 

@@ -12,6 +12,7 @@ public class RabbitmqdemoApplication implements CommandLineRunner
 {
 	
 	// To make use of RabbitTemplate we will autowire it.
+	// It is mainly used to publish rabbitmq msgs
 	@Autowired
 	private RabbitTemplate rabbitTemplate;
 
